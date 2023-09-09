@@ -1,0 +1,16 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server:
+The server receives {
+  "content": "New form entry",
+  "date": "2023-09-09T20:58:54.987Z"
+} at the address "new_note_spa".
+end note
+
+server-->browser: HTTP status code 201 {"message":"note created"}
+
+note over browser:
+The server responds with the status code 201 Created.
+The browser stays on the same page and does not send 
+any more HTTP requests.
+end note
