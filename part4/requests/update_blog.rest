@@ -1,0 +1,9 @@
+PUT http://localhost:3001/api/blogs/650c87a3072df3d16ba0fc36
+Content-Type: application/json
+
+{
+  "title": "El internet de las cosas",
+  "author": "Rodrigo B",
+  "url": "https://google.com",
+  "likes": 10000
+}

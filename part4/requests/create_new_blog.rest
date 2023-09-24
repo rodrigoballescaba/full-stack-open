@@ -1,0 +1,11 @@
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY1MGYxODljZGU5NTlhZjZmZDZhZjUzZSIsImlhdCI6MTY5NTQ5MDQwNn0.J0t6PE4MuTwFfR4OJ42uooDl4h91SyWkdj2myP1Tva8
+
+{
+  "title": "El saco azul dorado",
+  "author": "Rodrigo B",
+  "url": "https://google.com",
+  "likes": 100,
+  "userId": "650f18afde959af6fd6af54a"
+}
