@@ -1,11 +1,11 @@
-POST http://localhost:3001/api/blogs
+POST http://localhost:3003/api/blogs
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY1MGYxODljZGU5NTlhZjZmZDZhZjUzZSIsImlhdCI6MTY5NTQ5MDQwNn0.J0t6PE4MuTwFfR4OJ42uooDl4h91SyWkdj2myP1Tva8
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY1MjJjZGZkMmUyNTIzMDc4ZjFlMmUzMSIsImlhdCI6MTY5Njc3OTc5NSwiZXhwIjoxNjk2NzgzMzk1fQ.rzms1SVitfabhQS0-cyL-61YQR0Co1ppIGYu-S-Rj7s
 
 {
   "title": "El saco azul dorado",
   "author": "Rodrigo B",
   "url": "https://google.com",
-  "likes": 100,
-  "userId": "650f18afde959af6fd6af54a"
+  "likes": 10,
+  "userId": "652193cf2e2523078f1e2c7c"
 }
